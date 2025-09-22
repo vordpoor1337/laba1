@@ -1,7 +1,7 @@
 tasks = []
 
 def list_tasks():
-    """Показує список завдань."""
+    """Показує список завдань1."""
     if not tasks:
         return "Список порожній."
     return "\n".join([f"{i+1}. {task['title']} - [{'x' if task['done'] else '[ ]'}]" for i, task in enumerate(tasks)])

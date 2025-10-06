@@ -23,15 +23,21 @@ def mark_done(user_index):
     return "OK"
 
 def edit_task(user_index, new_title):
+    """Редагує назву існуючого завдання без створення нового."""
     if user_index < 1 or user_index > len(tasks):
         return "ERR01"
-    tasks[user_index - 1] = {"title": new_title, "done": tasks[user_index - 1]["done"]}
+    tasks[user_index - 1]["title"] = new_title  
     return "OK"
+
 
 def print_menu():
     """Формує текст меню для взаємодії з користувачем."""
     return """--- Меню To-Do ---
 1) Додати завдання
+2) Видалити завдання
+3) Позначити як виконане
+4) Список завдань
+5) Редагувати завдання
 0) Вихід"""
 def main():
     """Основна функція для взаємодії з користувачем."""

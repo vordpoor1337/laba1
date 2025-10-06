@@ -11,6 +11,8 @@ def add_task(title):
     tasks.append({"title": title, "done": False})
 
 def remove_task(user_index):
+    if not isinstance(user_index, int):   
+        return "ERR01"
     if user_index < 1 or user_index > len(tasks):
         return "ERR01"
     tasks.pop(user_index - 1)

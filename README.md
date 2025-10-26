@@ -38,7 +38,7 @@
  Завдання додано!
 
 Скріншот роботи програми
-<img width="403" height="872" alt="image" src="https://github.com/user-attachments/assets/2ca5b70d-be5c-4d0c-ace5-7978285f6d57" />
+<img width="333" height="1250" alt="image" src="https://github.com/user-attachments/assets/c8d85880-f777-4cc1-9263-b30e97e1dd55" />
 > Приклад вигляду меню у терміналі
 
 ## 📄 Ліцензія

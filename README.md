@@ -56,4 +56,6 @@
  👨‍💻 Автор 
 Студент групи Б-22-1
 Сліпак Андрій 
+
+
 Посилання на CONTRIBUTING.md https://github.com/vordpoor1337/laba1/blob/main/CONTRIBUTING.md
